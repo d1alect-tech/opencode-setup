@@ -1,0 +1,45 @@
+# OpenCode configuration and credentials
+opencode.json*
+.env
+.env.*
+*.key
+*.keys
+*.pem
+*.p12
+*.pfx
+*.token
+*.session
+*.session.json
+secrets/
+sessions/
+
+# Dependencies and generated output
+node_modules/
+dist/
+.omo/
+__pycache__/
+*.py[cod]
+*.log
+logs/
+cache/
+.cache/
+coverage/
+evals/
+*-workspace/
+benchmark.json
+benchmark.md
+feedback.json
+grading.json
+timing.json
+
+# Backups and editor/OS clutter
+*.bak
+*.backup
+*.old
+*.orig
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
